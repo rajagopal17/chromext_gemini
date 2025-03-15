@@ -1,0 +1,16 @@
+{
+    "manifest_version": 3,
+    "name": "Website Summarizer",
+    "version": "1.0",
+    "description": "Scrapes website text and summarizes it using Gemini 2.0 Flash.",
+    "permissions": [
+      "activeTab",
+      "storage"
+    ],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "action": {
+      "default_popup": "popup.html"
+    }
+  }
