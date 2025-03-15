@@ -5,7 +5,8 @@
     "description": "Scrapes website text and summarizes it using Gemini 2.0 Flash.",
     "permissions": [
       "activeTab",
-      "storage"
+      "storage",
+      "http://127.0.0.1:5000"
     ],
     "background": {
       "service_worker": "background.js"
