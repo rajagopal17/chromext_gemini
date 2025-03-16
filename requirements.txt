@@ -2,4 +2,5 @@ pip install python-dotenv
 pip install -q -U google-genai
 pip install --upgrade google-generativeai
 pip install flask flask-cors
-pip install flask
+pip install requests
+pip install beautifulsoup4
